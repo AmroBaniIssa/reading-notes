@@ -1,6 +1,8 @@
 # reading-notes
 
 class 01
+
+
 How would you describe Node to a non-technical friend?
 
 Node.js® is a JavaScript runtime built on Chrome’s V8 JavaScript engine, 
@@ -20,6 +22,8 @@ What is Node used for?
 
 
  class 02
+
+ 
 Explain middleware, answer as though I were a non-technical recruiter.
  middleware acts as a bridge or mediator between different parts of a computer program or system, enabling smooth communication and data exchange. It performs tasks like authentication, logging, and data transformation. It helps developers separate concerns and add functionality to the application without modifying its core functionalities.
 
