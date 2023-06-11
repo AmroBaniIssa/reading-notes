@@ -15,3 +15,6 @@ class02
 
 linked list
 [linked list](./linkedlist/linkedlist.md)
+
+linked list
+[Data Modeling](./DataModeling.md)
