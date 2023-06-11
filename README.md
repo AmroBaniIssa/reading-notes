@@ -12,3 +12,6 @@ Data Structures and Algorithms
 
 class02
 [class 02](./class02.md)
+
+linked list
+[linked list](./linkedlist/linkedlist.md)
