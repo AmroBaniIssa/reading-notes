@@ -32,3 +32,21 @@ Explain how concatenated content and secret can be sent and received securely to
    Once the ciphertext is sent to the recipient, they receive it and use a decryption process to convert the unreadable ciphertext back into the original concatenated content and secret. This decryption process requires the special key that matches the one used for encryption.
 
    By using encryption and keeping the key confidential, we ensure that even if someone intercepts the message, they won't be able to understand the content or access the secret without the proper decryption key.
+
+JWT is Compact and self-contained. Describe how this is useful to a non-technical friend.
+   Compactness: A JWT is like a small package that contains all the important information needed for authentication. It's compact because it doesn't contain unnecessary or redundant data. JWT contains all the necessary information in a concise format.
+   Self-contained: The information inside the JWT is self-contained, meaning it carries everything needed for authentication and authorization. It's like a magic token that holds all the required details securely.The JWT itself holds your identity and any necessary access permissions.
+
+What are the three components (the structure) of a JWT signature?
+   Header: The header of a JWT contains information about the type of token and the signing algorithm used. It is encoded using Base64Url and typically includes the following two properties:
+     "alg" (algorithm): Specifies the algorithm used for signing the token, such as HMAC, RSA, or ECDSA.
+     "typ" (type): Specifies the type of token, which is "JWT" for JSON Web Tokens.
+
+   Payload: The payload, also known as the claims or the body, contains the actual information or data that is being transmitted within the token. It can include various properties or claims about the user or the token itself. Some common standard claims include:
+    "iss" (issuer): Specifies the entity that issued the token.
+    "sub" (subject): Identifies the subject of the token, typically the user.
+    "exp" (expiration time): Specifies the expiration time of the token.
+    "iat" (issued at): Indicates the time at which the token was issued.
+     The payload is also encoded using Base64Url encoding to ensure it can be transmitted safely.
+
+   Signature: The signature is created by taking the encoded header, the encoded payload, and a secret or a private key and applying a specific signing algorithm. The purpose of the signature is to ensure the integrity and authenticity of the token. Only the party possessing the secret or private key can generate a valid signature, allowing the receiver to verify the token's authenticity.
