@@ -34,3 +34,6 @@ Authorization/Authentication
 
 reverced linked list
 [reverced linked list](./reverced%20linkedlist/reverced.md)
+
+Stacks and Queues
+[Stacks and Queues](./Stacks%26Queues.md)
