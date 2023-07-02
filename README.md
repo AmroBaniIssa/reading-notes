@@ -33,4 +33,4 @@ Authorization/Authentication
 [Authorization/Authentication](./Authorization-Authentication.md)
 
 reverced linked list
-[reverced linked list](./Authorization-Authentication.md)
+[reverced linked list](./reverced%20linkedlist/reverced.md)
