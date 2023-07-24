@@ -55,3 +55,7 @@ AWS
 
 S3 and Lambda
 [S3 and Lambda](./S3&lambda.md)
+
+SNS and SQS
+[SNS and SQS](./sns&sqs.md)
+
