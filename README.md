@@ -59,3 +59,5 @@ S3 and Lambda
 SNS and SQS
 [SNS and SQS](./sns&sqs.md)
 
+API, Dynamo and Lambda
+[API, Dynamo and Lambda](./Dynamo&Lambda.md)
