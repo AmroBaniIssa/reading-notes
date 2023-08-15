@@ -25,3 +25,21 @@ What word indicates that a React component manages data with a Hook?
 How can two react components share data?
    There are several ways two React components can share data, depending on the relationship between the components and the complexity of the data sharing.
    Props (Parent-to-Child): The most common way to share data between components is through props. In a parent-child relationship, the parent component passes data to its child components as props. Child components can access this data and use it to render content. Props are read-only and cannot be modified by child components.
+
+What are the three steps of refreshing a React UI?
+  - Triggering a render (delivering the guest’s order to the kitchen).
+  - Rendering the component (preparing the order in the kitchen).
+  - Committing to the DOM (placing the order on the table).
+
+How do you trigger updates to a component after the initial render?
+   Once the component has been initially rendered, you can trigger further renders by updating its state with the set function. 
+
+Does React recreate DOM nodes on every rerender?
+   React only changes the DOM nodes if there’s a difference between renders. 
+   
+   Virtual DOM: When you render a React component, React doesn't immediately update the real DOM. Instead, it creates a virtual representation of the DOM in memory called the "virtual DOM."
+
+   Reconciliation: When a component's state or props change, React performs a process called "reconciliation." It calculates the difference between the previous virtual DOM and the new virtual DOM generated after the update
+
+After React has updated the DOM, what still needs to happen before the user sees the change?
+   After rendering is done and React updated the DOM, the browser will repaint the screen. Although this process is known as “browser rendering”, we’ll refer to it as “painting” to avoid confusion throughout the docs.
