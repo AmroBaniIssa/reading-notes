@@ -2,7 +2,7 @@ step1 : Summarize the five steps of thinking in react.
   1- Break the UI into a component hierarchy:
    Start by drawing boxes around every component and subcomponent in the mockup and naming them.
 
-   ![usestate1](./usestate1.png)
+   ![usestate1](./usestate/usestate1.png)
 
    Now that you’ve identified the components in the mockup, arrange them into a hierarchy. Components that appear within another component in the mockup should appear as a child in the hierarchy:
 
