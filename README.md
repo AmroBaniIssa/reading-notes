@@ -67,3 +67,6 @@ Component Based UI
 
 useState ()
 [useState hook](./usestate.md)
+
+useEffect()
+[useEffect hook](./useEffect.md)
