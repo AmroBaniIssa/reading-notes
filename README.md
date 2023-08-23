@@ -70,3 +70,7 @@ useState ()
 
 useEffect()
 [useEffect hook](./useEffect.md)
+
+useReducer()
+[useReducer hook](./usereducer.md)
+
