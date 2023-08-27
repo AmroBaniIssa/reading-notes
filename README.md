@@ -74,3 +74,5 @@ useEffect()
 useReducer()
 [useReducer hook](./usereducer.md)
 
+hashTable
+[hash Table](./hashtable.md)
