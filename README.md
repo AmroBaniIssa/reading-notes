@@ -76,3 +76,6 @@ useReducer()
 
 hashTable
 [hash Table](./hashtable.md)
+
+State Structure
+[State Structure](./StateStructure.md)
