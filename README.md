@@ -79,3 +79,6 @@ hashTable
 
 State Structure
 [State Structure](./StateStructure.md)
+
+Context API - Behaviors
+[Context API - Behaviors](./ContextAPI-Behaviors.md)

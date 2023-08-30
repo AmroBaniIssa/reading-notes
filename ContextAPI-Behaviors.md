@@ -1,0 +1,5 @@
+How do useReducer and useContext work together to simplify state management in a React application? (At least two paragraphs of prose).
+
+Reducers let you consolidate a component’s state update logic. Context lets you pass information deep down to other components. You can combine reducers and context together to manage state of a complex screen.
+
+useContext enables you to access the state and dispatch functions provided by useReducer without having to pass them down through component props. By creating a context that holds the state and dispatch, and then providing this context at the top level of your component tree using Context.Provider, all components within that tree can consume the context using the useContext hook. This eliminates the need to pass state and dispatch through multiple layers of components, making your codebase cleaner and more maintainable.
